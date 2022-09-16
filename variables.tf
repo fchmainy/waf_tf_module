@@ -8,5 +8,6 @@ variable enforcement_mode {}
 variable server_technologies {}
 variable parameters {}
 variable signatures {}
+variable cves {}
 variable modifications {}
 variable tags {}
