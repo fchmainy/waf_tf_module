@@ -1,6 +1,6 @@
 variable "urls" {
   type                        = map(object({
-  name             	          = string
+  name                        = string
   description                 = string
   type	                      = string
   protocol	                  = string
