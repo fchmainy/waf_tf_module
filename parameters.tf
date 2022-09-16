@@ -16,7 +16,7 @@ variable "parameters" {
 
 
 data "bigip_waf_entity_parameter" "this" {
-  for_each	                  = var.local_parameters
+  for_each	                  = var.parameters
   name			                  = each.value["name"]
   type			                  = each.value["type"]
   description                 = each.value["description"]
