@@ -1,6 +1,5 @@
 resource "bigip_waf_policy" "this" {
-  count			            = length(var.bigips)
-  provider		          = var.bigips[count.index]
+  provider              = var.bigip
   name                  = var.name
   partition		          = var.partition
   template_name         = var.template_name
